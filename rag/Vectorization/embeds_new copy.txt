@@ -1,0 +1,397 @@
+Glossary for Target Audience [Job]
+
+    Salaried Employees: 1
+    Businessmen: 2
+    Professionals: 3
+    Corporates: 4
+    NRIs and PIOs: 5
+    Pensioners: 6
+    Defence Personnel: 7
+    Students: 8
+    General Public: 9
+    Senior Citizens: 10
+    Artisans: 11
+    Commission Agents: 12
+    Educational Institutions: 13
+    Contractors: 14
+    Healthcare Providers: 15
+    Start-ups: 16
+    Micro Enterprises: 17
+    Farmers: 18
+    E-commerce Businesses: 19
+
+Glossary for Age Range
+
+    Below 18: 1
+    18-25: 2
+    26-35: 3
+    36-45: 4
+    46-55: 5
+    56-65: 6
+    66 and above: 7
+    All Ages: 8
+
+Glossary for Gender
+
+    Male: 1
+    Female: 2
+    Any: 3
+
+Glossary for Income
+
+    Below 2.5 Lakh: 1
+    2.5 Lakh to 5 Lakh: 2
+    5 Lakh to 10 Lakh: 3
+    10 Lakh to 20 Lakh: 4
+    Above 20 Lakh: 5
+    Any Income: 6
+
+Glossary for Risk
+
+    Low: 1
+    Medium: 2
+    High: 3
+    Any Risk: 4
+
+Glossary for SIBIL Score
+
+    Below 600: 1
+    600-700: 2
+    700-800: 3
+    Above 800: 4
+    Any Score: 5
+
+
+
+loan_policies = [
+
+# Baroda Digital Car Loan
+baroda_digital_car_loan_eligible = [
+    [1, 2, 3, 3, 4, 3], [1, 3, 3, 4, 4, 3], [2, 3, 3, 5, 4, 3], [3, 3, 3, 5, 4, 3], [4, 3, 3, 5, 4, 3]
+],
+# Baroda Car Loan
+baroda_car_loan_eligible = [
+    [1, 3, 3, 3, 4, 3], [2, 3, 3, 4, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 5, 4, 3], [5, 3, 3, 5, 4, 3]
+],
+# Baroda Two Wheeler Loan
+baroda_two_wheeler_loan_eligible = [
+    [1, 2, 3, 2, 4, 3], [1, 3, 3, 3, 4, 3], [2, 3, 3, 3, 4, 3], [3, 3, 3, 3, 4, 3]
+
+],
+
+
+# Baroda Auto Loan for Pre-owned Car
+baroda_auto_loan_preowned_car_eligible = [
+    [1, 3, 3, 3, 4, 3], [2, 3, 3, 3, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3]
+
+],
+
+
+# Baroda Home Loan to Corporates / Non Individuals
+baroda_home_loan_corporates_non_individuals_eligible = [
+    [4, 3, 3, 5, 4, 3]
+],
+
+# Baroda Home Loan
+baroda_home_loan_eligible = [
+    [1, 3, 3, 4, 4, 3], [2, 3, 3, 4, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+# Baroda Max Savings Home Loan
+baroda_max_savings_home_loan_eligible = [
+    [1, 3, 3, 4, 4, 3], [2, 3, 3, 4, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+# Baroda Home Loan Takeover Scheme
+baroda_home_loan_takeover_scheme_eligible = [
+    [1, 3, 3, 4, 4, 3], [2, 3, 3, 4, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+# Home Improvement Loan
+home_improvement_loan_eligible = [
+    [1, 3, 3, 4, 4, 3], [2, 3, 3, 4, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+# Baroda Pre-Approved Home Loan
+baroda_pre_approved_home_loan_eligible = [
+    [1, 3, 3, 4, 4, 3], [2, 3, 3, 4, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+# Baroda Top Up Loan
+baroda_top_up_loan_eligible = [
+    [1, 3, 3, 4, 4, 3], [2, 3, 3, 4, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+# Baroda Home Suvidha Personal Loan
+baroda_home_suvidha_personal_loan_eligible = [
+    [1, 3, 3, 4, 4, 3], [2, 3, 3, 4, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+# Credit Risk Guarantee Fund Scheme for Low Income Housing
+credit_risk_guarantee_fund_scheme_low_income_housing_eligible = [
+    [1, 3, 3, 2, 4, 3], [1, 3, 3, 2, 4, 3], [1, 3, 3, 2, 4, 3], [1, 3, 3, 2, 4, 3], [1, 3, 3, 2, 4, 3]
+],
+
+# Baroda Digital Personal Loan
+baroda_digital_personal_loan_eligible = [
+    [1, 3, 3, 3, 4, 3], [2, 3, 3, 3, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+# Baroda Digital Pre-Approved Personal Loan
+baroda_digital_pre_approved_personal_loan_eligible = [
+    [1, 3, 3, 3, 4, 3], [2, 3, 3, 3, 4, 3], [3, 3, 3, 4, 4, 3], [4, 3, 3, 4, 4, 3], [5, 3, 3, 4, 4, 3]
+],
+
+
+
+    # Baroda Personal Loan
+    [
+        [1, 2, 3, 2, 2, 2], [1, 3, 3, 3, 2, 2], [1, 4, 3, 4, 2, 2], [1, 5, 3, 4, 2, 2], [2, 2, 3, 2, 2, 2], 
+        [2, 3, 3, 3, 2, 2], [2, 4, 3, 4, 2, 2], [2, 5, 3, 4, 2, 2], [3, 2, 3, 2, 2, 2], [3, 3, 3, 3, 2, 2], 
+        [3, 4, 3, 4, 2, 2], [3, 5, 3, 4, 2, 2], [4, 2, 3, 2, 2, 2], [4, 3, 3, 3, 2, 2], [4, 4, 3, 4, 2, 2], 
+        [4, 5, 3, 4, 2, 2], [9, 2, 3, 2, 2, 2], [9, 3, 3, 3, 2, 2], [9, 4, 3, 4, 2, 2], [9, 5, 3, 4, 2, 2], 
+        [19, 2, 3, 2, 2, 2], [19, 3, 3, 3, 2, 2], [19, 4, 3, 4, 2, 2], [19, 5, 3, 4, 2, 2]
+    ],
+
+    # Baroda Loan to Pensioners
+    [
+        [6, 6, 3, 6, 1, 5], [6, 7, 3, 6, 1, 5]
+    ],
+
+    # Baroda Yoddha Home Loan for Defence Personnel
+    [
+        [7, 2, 3, 2, 2, 2], [7, 3, 3, 3, 2, 2], [7, 4, 3, 4, 2, 2], [7, 5, 3, 4, 2, 2]
+    ],
+
+    # Baroda Yoddha Auto Loan for Defence Personnel
+    [
+        [7, 2, 3, 2, 2, 2], [7, 3, 3, 3, 2, 2], [7, 4, 3, 4, 2, 2], [7, 5, 3, 4, 2, 2]
+    ],
+
+    # Baroda Yoddha Two-Wheeler Loan for Defence Personnel
+    [
+        [7, 2, 3, 2, 2, 2], [7, 3, 3, 3, 2, 2], [7, 4, 3, 4, 2, 2], [7, 5, 3, 4, 2, 2]
+    ],
+
+    # Baroda Yoddha Loan to Defence Pensioners
+    [
+        [7, 6, 3, 6, 1, 5], [7, 7, 3, 6, 1, 5]
+    ],
+
+    # Baroda Yoddha Education Loans [all variants]
+    [
+        [7, 2, 3, 2, 2, 2], [7, 3, 3, 3, 2, 2], [7, 4, 3, 4, 2, 2], [7, 5, 3, 4, 2, 2]
+    ],
+
+    # Baroda Digital Education Loan
+    [
+        [8, 2, 3, 2, 2, 2], [8, 3, 3, 3, 2, 2], [8, 4, 3, 4, 2, 2]
+    ],
+
+    # Baroda Vidya
+    [
+        [8, 2, 3, 2, 1, 2], [8, 3, 3, 2, 1, 2]
+    ],
+
+    # Baroda Gyan
+    [
+        [8, 2, 3, 3, 2, 2], [8, 3, 3, 3, 2, 2], [8, 4, 3, 4, 2, 2]
+    ],
+
+    # Baroda Scholar
+    [
+        [8, 2, 3, 3, 2, 2], [8, 3, 3, 3, 2, 2], [8, 4, 3, 4, 2, 2]
+    ],
+
+    # Baroda Education Loan to Students of Premier Institutions
+    [
+        [8, 2, 3, 3, 2, 2], [8, 3, 3, 3, 2, 2], [8, 4, 3, 4, 2, 2]
+    ],
+
+    # Skill Loan Scheme
+    [
+        [8, 2, 3, 2, 1, 2], [8, 3, 3, 2, 1, 2]
+    ],
+
+    # Vidya Lakshmi Portal
+    [
+        [8, 2, 3, 2, 1, 2], [8, 3, 3, 2, 1, 2]
+    ],
+
+    # Government of India Interest Subsidy Schemes for Education Loan
+    [
+        [8, 2, 3, 2, 1, 2], [8, 3, 3, 2, 1, 2]
+    ],
+
+    # Baroda Education Loan for EDP being offered by Premier Institutions in India
+    [
+        [8, 2, 3, 3, 2, 2], [8, 3, 3, 3, 2, 2], [8, 4, 3, 4, 2, 2]
+    ],
+
+    # Baroda Education Loans for EDP being offered by Premier Institutions Abroad
+    [
+        [8, 2, 3, 3, 2, 2], [8, 3, 3, 3, 2, 2], [8, 4, 3, 4, 2, 2]
+    ],
+
+    # Higher Education and Skill Development Guarantee Scheme for Pursuing Higher Education in Delhi
+    [
+        [8, 2, 3, 2, 2, 2], [8, 3, 3, 3, 2, 2]
+    ]
+    # PM-Surya Ghar Yojana (Composite and Standalone)
+    [
+        [9, 8, 3, 6, 1, 3],  # General Public, All Ages, Any Gender, Any Income, Low Risk, SIBIL Score 700-800
+        [9, 8, 3, 6, 1, 4]   # General Public, All Ages, Any Gender, Any Income, Low Risk, SIBIL Score Above 800
+    ],
+    
+    # Loan for Public Issues-IPO
+    [
+        [2, 3, 3, 5, 3, 4],  # Businessmen, 26-35, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+        [2, 4, 3, 5, 3, 4],  # Businessmen, 36-45, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+        [2, 5, 3, 5, 3, 4],  # Businessmen, 46-55, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+        [3, 3, 3, 5, 3, 4],  # Professionals, 26-35, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+        [3, 4, 3, 5, 3, 4],  # Professionals, 36-45, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+        [3, 5, 3, 5, 3, 4],  # Professionals, 46-55, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+        [4, 3, 3, 5, 3, 4],  # Corporates, 26-35, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+        [4, 4, 3, 5, 3, 4],  # Corporates, 36-45, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+        [4, 5, 3, 5, 3, 4]   # Corporates, 46-55, Any Gender, Above 20 Lakh, High Risk, SIBIL Score Above 800
+    ],
+    
+    # Baroda Ashray (Reverse Mortgage Loan)
+    [
+        [10, 7, 3, 6, 1, 3], # Senior Citizens, 66 and above, Any Gender, Any Income, Low Risk, SIBIL Score 700-800
+        [10, 7, 3, 6, 1, 4]  # Senior Citizens, 66 and above, Any Gender, Any Income, Low Risk, SIBIL Score Above 800
+    ],
+    
+    # Commission Agents Loan Arthias
+    [
+        [12, 4, 3, 3, 2, 3], # Commission Agents, 36-45, Any Gender, 5 Lakh to 10 Lakh, Medium Risk, SIBIL Score 700-800
+        [12, 5, 3, 3, 2, 3], # Commission Agents, 46-55, Any Gender, 5 Lakh to 10 Lakh, Medium Risk, SIBIL Score 700-800
+        [12, 4, 3, 3, 2, 4], # Commission Agents, 36-45, Any Gender, 5 Lakh to 10 Lakh, Medium Risk, SIBIL Score Above 800
+        [12, 5, 3, 3, 2, 4]  # Commission Agents, 46-55, Any Gender, 5 Lakh to 10 Lakh, Medium Risk, SIBIL Score Above 800
+    ],
+    
+    # Retail Gold Loan
+    [
+        [9, 4, 3, 4, 1, 3],  # General Public, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [9, 5, 3, 4, 1, 3],  # General Public, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [9, 4, 3, 4, 1, 4],  # General Public, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+        [9, 5, 3, 4, 1, 4]   # General Public, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+    ],
+    
+    # Baroda Loan against Future Rent Receivable (Retail Segment)
+    [
+        [2, 4, 3, 4, 1, 3],  # Businessmen, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [2, 5, 3, 4, 1, 3],  # Businessmen, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [2, 4, 3, 4, 1, 4],  # Businessmen, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+        [2, 5, 3, 4, 1, 4],  # Businessmen, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+        [4, 4, 3, 4, 1, 3],  # Corporates, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [4, 5, 3, 4, 1, 3],  # Corporates, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [4, 4, 3, 4, 1, 4],  # Corporates, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+        [4, 5, 3, 4, 1, 4]   # Corporates, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+    ],
+    
+    # Baroda Mortgage Loan
+    [
+        [2, 4, 3, 4, 1, 3],  # Businessmen, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [2, 5, 3, 4, 1, 3],  # Businessmen, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [2, 4, 3, 4, 1, 4],  # Businessmen, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+        [2, 5, 3, 4, 1, 4],  # Businessmen, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+        [4, 4, 3, 4, 1, 3],  # Corporates, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [4, 5, 3, 4, 1, 3],  # Corporates, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score 700-800
+        [4, 4, 3, 4, 1, 4],  # Corporates, 36-45, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+        [4, 5, 3, 4, 1, 4]   # Corporates, 46-55, Any Gender, 10 Lakh to 20 Lakh, Low Risk, SIBIL Score Above 800
+    ],
+    
+    # Agri Gold Loan
+    [
+        [18, 8, 3, 3, 1, 3], # Farmers, All Ages, Any Gender, 5 Lakh to 10 Lakh, Low Risk, SIBIL Score 700-800
+        [18, 8, 3, 3, 1, 4]  # Farmers, All Ages, Any Gender, 5 Lakh to 10 Lakh, Low Risk, SIBIL Score Above 800
+    ],
+    
+    # Baroda Overdraft for E-commerce Business (Amazon/Flipkart)
+    [
+        [19, 3, 3, 3, 2, 3], # E-commerce Businesses, 26-35, Any Gender, 5 Lakh to 10 Lakh, Medium Risk, SIBIL Score 700-800
+        [19, 4, 3, 3, 2, 3], # E-commerce Businesses, 36-45, Any Gender, 5 Lakh to 10 Lakh, Medium Risk, SIBIL Score 700-800
+        [19, 3, 3, 3, 2, 4], # E-commerce Businesses, 26-35, Any Gender, 5 Lakh to 10 Lakh, Medium Risk, SIBIL Score Above 800
+        [19, 4, 3, 3, 2, 4]  # E-commerce Businesses, 36-45, Any Gender, 5 Lakh to 10 Lakh, Medium Risk, SIBIL Score Above 800
+    ],
+    [[9, 8, 3, 6, 1, 5]],  # Baroda Advance Against Securities (Kisan Vikas Patra / e KVP)
+    [[9, 8, 3, 6, 1, 5]],  # Baroda Advance Against Securities (Life Insurance Policies)
+    [[9, 8, 3, 6, 1, 5]],  # Baroda Advance against the securities (Relief Bonds /Government Bonds)
+    [[9, 8, 3, 6, 1, 5]],  # Baroda Advance Against Securities (National Savings Certificate)
+    [[15, 8, 3, 6, 2, 5]],  # Baroda Arogyadham Loan
+    [[16, 2, 3, 6, 3, 5]],  # Credit Guarantee Scheme for Start-ups (CGSS)
+    [[17, 3, 3, 6, 2, 5]],  # Scheme for financing Micro units engaged in Export
+    [[15, 8, 3, 6, 2, 5]],  # Baroda Healthcare Scheme
+    [[14, 8, 3, 6, 2, 5]],  # Loan Guarantee Scheme for Covid Affected Tourism Service Sector
+    [[14, 8, 3, 6, 2, 5]],  # Baroda Contractor Loan Scheme
+    [[12, 8, 3, 6, 2, 5]],  # Baroda Loan to Business Correspondents
+    [[2, 8, 3, 6, 2, 5]],   # Baroda Laghu Udyami Credit Card
+    [[11, 8, 3, 6, 2, 5]],  # Baroda Artisans Credit Card
+    [[13, 8, 3, 6, 2, 5]],  # Baroda Vidyasthali Loan for Educational Institutions
+    [[4, 8, 3, 6, 2, 5]],   # SME Short Term Loan
+    [[4, 8, 3, 6, 2, 5]],   # SME Medium Term Loan
+    [[17, 8, 3, 6, 2, 5]],  # MSME Capex Loan and Capex Card
+    [[14, 8, 3, 6, 2, 5]],  # Loan for Construction and Mining Equipment
+    [[11, 8, 3, 6, 2, 5]],  # BOB Weaver Mudra Scheme
+    [[9, 8, 3, 6, 1, 5]]    # Atal Pension Yojana
+    
+    # E-Kisan Vikas Patra Scheme, 2014
+    [
+        [9, 8, 3, 6, 1, 5]
+    ],
+    # Floating Rate Savings Bonds
+    [
+        [9, 8, 3, 6, 1, 5]
+    ],
+    # Gold Monetization Scheme
+    [
+        [9, 8, 3, 6, 1, 5]
+    ],
+    # Senior Citizen Savings Scheme
+    [
+        [10, 7, 3, 6, 1, 5]
+    ],
+    # Sovereign Gold Bonds
+    [
+        [9, 8, 3, 6, 1, 5]
+    ],
+    # Public Provident Fund
+    [
+        [9, 8, 3, 6, 1, 5]
+    ],
+    # Sukanya Samriddhi Yojana
+    [
+        [9, 8, 2, 6, 1, 5]
+    ],
+    # National Pension Scheme
+    [
+        [9, 3, 3, 6, 1, 5],
+        [9, 4, 3, 6, 1, 5],
+        [9, 5, 3, 6, 1, 5]
+    ],
+    # Mahila Samman Savings Certificate (MSSC), 2023
+    [
+        [9, 8, 2, 6, 1, 5]
+    ],
+    # Mutual Fund Investment
+    [
+        [9, 8, 3, 6, 4, 5]
+    ],
+    # Alternate Investment Products
+    [
+        [9, 8, 3, 6, 4, 5]
+    ],
+    # Baroda 3 in 1 Demat & Trading Account
+    [
+        [9, 8, 3, 6, 4, 5]
+    ],
+    # Demat Account
+    [
+        [9, 8, 3, 6, 4, 5]
+    ]
+]
+
+
+
+
